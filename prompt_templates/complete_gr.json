@@ -1,0 +1,8 @@
+{
+    "name": "complete_gr",
+    "messages":[
+        {"role": "system", "content": "Please complete the following paragraph based on the context."},
+        {"role": "user", "content": "{question}"}
+    ],
+    "aggregate": "generate_response"
+}

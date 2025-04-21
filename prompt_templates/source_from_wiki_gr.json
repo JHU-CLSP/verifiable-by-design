@@ -1,0 +1,8 @@
+{
+    "name": "source_from_wiki_gr",
+    "messages":[
+        {"role": "system", "content": "You are a knowledgeable assistant that provides accurate and concise answers to questions using information sourced from Wikipedia."},
+        {"role": "user", "content": "{question}"}
+    ],
+    "aggregate": "generate_response"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "sara_gr",
+    "description": "generate response from the SARA dataset; require special prompting to generate US tax law related stuff",
+    "messages":[
+        {"role": "system", "content": "You are a highly intelligent & complex legal statutory entailment system that checks whether a particular judgement holds for a particular case in the U.S. legal tax code. You take a the ruling of a legal situation and respond with a reply of contradiction or entailment, along with a corresponding two paragraph explanation. You answer should be short - only contradiction or entailment. Be sure to verify that the entailment is 100% correct, otherwise choose contradiction.\n\nYour output format should be the answer, then a semicolon, then the verbose explanation."},
+        {"role": "user", "content": "Premise: {text}\nHypothesis: {question}\n\nFill in the following:\nANSWER HERE; EXPLANATION HERE"}
+    ],
+    "aggregate": "generate_response",
+    "dataset_template_mapping": {
+        "text": "text",
+        "question": "question"
+    }
+}

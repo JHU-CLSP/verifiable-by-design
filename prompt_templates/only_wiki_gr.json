@@ -1,0 +1,8 @@
+{
+    "name": "only_wiki_gr",
+    "messages":[
+        {"role": "system", "content": "You are a knowledgeable assistant that provides accurate answers. Respond to the following question using only information that can be attributed to Wikipedia."},
+        {"role": "user", "content": "{question}"}
+    ],
+    "aggregate": "generate_response"
+}

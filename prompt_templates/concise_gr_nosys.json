@@ -1,0 +1,7 @@
+{
+    "name": "concise_gr_nosys",
+    "messages":[
+        {"role": "user", "content": "You will be given a question. Write a short paragraph that answers the question. Remember to be concise, accurate, and on-topic. Question: {question}"}
+    ],
+    "aggregate": "generate_response"
+}
